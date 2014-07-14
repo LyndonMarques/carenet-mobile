@@ -1,0 +1,357 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("/assets/fonts/roboto-regular-webfont.eot");
+    src: url("/assets/fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto-regular-webfont.woff") format("woff"), url("/assets/fonts/roboto-regular-webfont.ttf") format("truetype"), url("/assets/fonts/roboto-regular-webfont.svg#webfont") format("svg");
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url("/assets/fonts/roboto-light-webfont.eot");
+    src: url("/assets/fonts/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/roboto-light-webfont.woff") format("woff"), url("/assets/fonts/roboto-light-webfont.ttf") format("truetype"), url("/assets/fonts/roboto-light-webfont.svg#webfont") format("svg");
+}
+
+@font-face {
+    font-family: 'FvAlmelo';
+    src: url("/assets/fonts/fv_almelo-webfont.eot");
+    src: url("/assets/fonts/fv_almelo-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fv_almelo-webfont.woff") format("woff"), url("/assets/fonts/fv_almelo-webfont.ttf") format("truetype"), url("/assets/fonts/fv_almelo-webfont.svg#webfont") format("svg");
+}
+
+.silverBg {
+    background-color: #E2E2E2;
+}
+
+.blackText {
+    color: #000000;
+}
+
+.introText {
+    font-family: RobotoLight, sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    line-height:140%;
+    font-weight: 200;
+    color: #ffffff;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    margin-bottom: -10px;
+    text-align: justify;
+    z-index: 9997;
+}
+
+.cnText {
+    font-family: RobotoLight, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    text-align: justify;
+}
+
+.box30 {
+    margin-bottom: 10px;
+}
+
+.socialbox {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10px;
+}
+
+.socialbox_facebook {
+    /*	height: 54px; */
+    height: auto;
+    width: 15%;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.socialbox_twitter {
+    height: auto;
+    width: 15%;
+    margin-left: 5px;
+    float: left;
+    text-align: center;
+}
+
+.socialbox_carenet {
+    /*	height: 54px; */
+    height: auto;
+    width: 65%;
+    float: left;
+}
+
+.gettoknow {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10px;
+}
+
+.gettoknow_klip {
+    height: auto;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.gettoknow_img > img {
+    height: auto;
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.gettoknow_app {
+    height: auto;
+    width: 20%;
+    float: right;
+    text-align: center;
+}
+
+.gettoknow_main {
+    /*	height: 54px; */
+    height: auto;
+    width: 55%;
+    float: left;
+}
+
+.condicoes_gerais {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.condicoes_gerais > a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.wrapper {
+    margin: 0 0 0 0;
+    height: 90px;
+    text-align: center;
+}
+
+.slider_text {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 90px;
+    overflow: hidden;
+    display: block;
+    font-family: RobotoLight, sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    line-height:140%;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.slider_text li {
+    margin: 0 0 0 0;
+    border: none;
+    display: none;
+    list-style-type:none;
+}
+
+.carenet_info_box {
+    margin-top: -35px;
+}
+
+.content p {
+    margin-bottom: 0;
+}
+
+.content li {
+    margin-bottom: 0;
+}
+
+.div_image_resized > img {
+    height: auto;
+    width: 100%;
+}
+
+.autosizeImg {
+    height: auto;
+    width: 100%;
+}
+
+.nextActionSuggestion {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.btnsSaibaMais  {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.btnsSaibaMais > a {
+    background-color: #ffffff;
+    text-align: center;
+    -moz-box-shadow:    3px 3px 5px 2px #005c56;
+    -webkit-box-shadow: 3px 3px 5px 2px #005c56;
+    box-shadow:         3px 3px 5px 2px #005c56;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 6px;
+    color: #4d4d4d;
+}
+
+.content {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    width: 85%;
+    font-family: RobotoLight, sans-serif;
+}
+
+.contentFooter  {
+    margin-top: -30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+}
+
+.title {
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+}
+
+.title > img {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+.titleText {
+    font-family: RobotoLight, sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    line-height:140%;
+    font-weight: 200;
+    color: #ffffff;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    margin: auto;
+    text-align: left;
+}
+
+.contentConditions  {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    width: 85%;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.box30-base {
+    background-image: url(/assets/img-custom/indicadores/popup-base-indicadores_pt.png);
+}
+
+.contentWithBMargin > p {
+    margin-bottom: 4px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////// Green Skin CSS Rules Start                                                                         */
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+a, p > a {
+    color: #ffffff;
+    font-family: RobotoLight, sans-serif;
+}
+
+.headerWrapper {
+    background-color: #034B46;
+}
+.mainMenuWrapper {
+    border-color: #034B46;
+    font-size: 1.4em;
+}
+.mainMenuWrapper > li > a {
+    background-image: url(/assets/images/skins/green/mainMenuItemBg.png);
+}
+
+.currentPage {
+    color: #034B46;
+}
+
+.nivo-directionNav a {
+    background-color: #034B46;
+}
+.currentPageNumber, .currentPageNumber:hover {
+    background-color: #034B46;
+}
+input.errorSearchFormSubmitButton, input.errorSearchFormSubmitButton:hover {
+    background-color: #034B46;
+}
+.portfolioOneItemImageWrapper, .portfolioOneFilterableWrapper .portfolioFilterableItemImageWrapper {
+    border-color: #034B46;
+}
+.portfolioMenuWrapper .currentPortfolioFilter {
+    color: #034B46;
+}
+.portfolioOneExpandButton, .portfolioFilterableExpandButton, .singleProjectExpandButton {
+    background-image: url(/assets/images/skins/green/portfolioExpandButtonBg.png);
+}
+.portfolioOneDetailsButton, .portfolioFilterableDetailsButton, .singleProjectDetailsButton {
+    background-image: url(/assets/images/skins/green/portfolioDetailsButtonBg.png);
+}
+.postThumbnailWrapper {
+    border-color: #034B46;
+}
+.smallPostMoreButton {
+    background-image: url(/assets/images/skins/green/smallPostReadMoreButtonBg.png);
+}
+input.contactSubmitButton, input.contactSubmitButton:hover {
+    background-color: #034B46;
+    color: #ffffff;
+}
+input.commentSubmitButton, input.commentSubmitButton:hover {
+    background-color: #034B46;
+    color: #ffffff;
+}
+.backToTopButton {
+    background-image: url(/assets/images/skins/green/backToTopButtonBg.png);
+}
+.accordionButton .accordionButtonIcon {
+    background-image: url(/assets/images/skins/green/accordionButtonBg.png);
+}
+@media (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2) {
+    .mainMenuWrapper > li > a {
+        background-image: url(/assets/images/skins/green/mainMenuItemBg-x2.png);
+        background-size: 20px 72px;
+    }
+    .portfolioOneExpandButton, .portfolioFilterableExpandButton, .singleProjectExpandButton {
+        background-image: url(/assets/images/skins/green/portfolioExpandButtonBg-x2.png);
+        background-size: 28px 16px;
+    }
+    .portfolioOneDetailsButton, .portfolioFilterableDetailsButton, .singleProjectDetailsButton {
+        background-image: url(/assets/images/skins/green/portfolioDetailsButtonBg-x2.png);
+        background-size: 28px 16px;
+    }
+    .smallPostMoreButton {
+        background-image: url(/assets/images/skins/green/smallPostReadMoreButtonBg-x2.png);
+        background-size: 28px 16px;
+    }
+    .backToTopButton {
+        background-image: url(/assets/images/skins/green/backToTopButtonBg-x2.png);
+        background-size: 12px 8px;
+    }
+    .accordionButton .accordionButtonIcon {
+        background-image: url(/assets/images/skins/green/accordionButtonBg-x2.png);
+        background-size: 32px 32px;
+    }
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////// Green Skin CSS Rules End                                                                           */
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

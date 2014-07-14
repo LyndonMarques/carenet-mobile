@@ -1,0 +1,230 @@
+
+.product-section-title {
+    font-family: RobotoLight, sans-serif;
+    color: #27A298;
+    display: block;
+}
+
+.formasPagamentoDetalhe {
+    margin-right: 10%;
+    vertical-align: 50%;
+}
+
+.formasPagamentoDetalhe > span {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    -webkit-transform: translateY(-35%);
+    -ms-transform: translateY(-35%);
+    transform: translateY(-35%);
+    z-index: 100;
+}
+
+.formasPagamentoDetalheTexto {
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+.formasPagamentoDetalheImage {
+    margin-right: 5%;
+    float: right;
+    width: 60%;
+    height: auto;
+}
+
+
+.product-header {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.photo-container {
+    border: 1px solid #c1c1c1;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.product-box {
+    width: 100%;
+    margin: auto;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+/* Primary Info */
+
+.product-box .primary-info {
+    width: 80%;
+    position: relative;
+}
+
+.product-box .primary-info h1 {
+    margin: 0;
+    padding: 0;
+    font-family: FvAlmelo, sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.product-box .primary-info small {
+    display: block;
+    color: #828282;
+    text-transform: uppercase;
+}
+
+.product-box .primary-info .text-green {
+    color: #339183;
+}
+
+.product-box .primary-info .striked {
+    text-decoration: line-through;
+}
+.product-box .primary-info .price-info {
+    width: 100%;
+}
+
+.product-box .primary-info .price {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: #00d6bc;
+    line-height: 35px;
+    white-space: nowrap;
+}
+
+.product-box .primary-info .payment-option {
+    color: #828282;
+    line-height: 30px;
+}
+
+.product-box .primary-info .availability {
+    font-size: 12px;
+    color: #828282;
+    margin: 5px 0;
+    line-height: 30px;
+}
+.product-box .primary-info .availability .em-estoque {
+    background: #00d6ba;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 5px;
+    position: relative;
+    margin-right: 5px;
+    line-height: 24px;
+}
+.product-box .primary-info .availability .em-estoque:after {
+    display: block;
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #00d6ba;
+    right: -5px;
+    margin-top: -19px;
+}
+.product-box .primary-info .availability .store {
+    display: inline-block;
+    text-indent: -9999px;
+}
+.product-box .primary-info .availability .store.carenet-store {
+    background: rgba(64, 64, 64, 0.5) url(/assets/img-custom/sprite.png) -314px -135px;
+    line-height: 30px;
+    height: 30px;
+    width: 82px;
+}
+
+.product-box .topic {
+    width: 90%;
+}
+
+.product-box .topic h4 {
+    font-family: FvAlmelo, sans-serif;
+    color: #2ea69a;
+    font-size: 1.5em;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.product-box .topic h4 i {
+    width: 0px;
+    height: 2em;
+    display: block;
+    float: left;
+}
+
+.product-box .features {
+    width: 90%;
+}
+
+.product-box .features ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.product-box .features ul li {
+    padding: 10px 5px;
+    margin-bottom: 5px;
+}
+
+.product-box .features ul li h3, .product-box .features ul li p {
+    margin: 0;
+}
+.product-box .features ul li h3 {
+    line-height: 2em;
+    font-family: FvAlmelo, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000000;
+}
+
+.product-box .features ul li i {
+    margin-right: 5px;
+    display: inline-block;
+    float: left;
+    width: 35px;
+    height: 32px;
+    background: url(/assets/img-custom/sprite.png) no-repeat;
+}
+
+.product-box .features ul li.atividades i {
+    background-position: -372px -345px;
+}
+.product-box .features ul li.monitoramento i {
+    background-position: -365px -260px;
+}
+.product-box .features ul li.compartilhamento i {
+    background-position: -367px -218px;
+}
+.product-box .features ul li.gerenciamento i {
+    background-position: -369px -381px;
+}
+.product-box table {
+    width: 90%;
+    margin: 2em auto 4em auto;
+}
+.product-box table td {
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #000000;
+}
+.product-box table tr {
+    background: #b8e3dc;
+}
+.product-box table tr td:last-child {
+    text-align: right;
+}
+.product-box table tr:nth-child(odd) {
+    background-color: #d5f5ed;
+}

@@ -1,0 +1,86 @@
+
+.commonIndicator {
+    display:block;
+    position:absolute;
+    z-index:9998;
+}
+
+.commonIndicator > a{
+    width: 100%;
+    height: 100%;
+}
+
+.moveIndicator {
+    left:13%;
+    top:45%;
+    width:30%;
+    height:22%;
+}
+
+.eatIndicator {
+    left:43%;
+    top:45%;
+    width:30%;
+    height:22%;
+}
+
+
+.bmIndicator {
+    left:13%;
+    top:67%;
+    width:30%;
+    height:22%;
+}
+
+.sleepIndicator {
+    left:43%;
+    top:67%;
+    width:30%;
+    height:22%;
+}
+
+.closeButton {
+    left:50%;
+    top:90%;
+    width:30%;
+    height:7%;
+}
+
+.backButton {
+    left:6%;
+    top:35%;
+    width:10%;
+    height:8%;
+}
+
+div.scroll {
+    overflow:auto;
+    display:block;
+    position:absolute;
+    z-index:9999;
+    left:8%;
+    top:44%;
+    width:70%;
+    height:40%;
+    color: #202020;
+    line-height: 2.5em;
+    font-family: FvAlmelo, sans-serif;
+    font-size: 1.5em;
+}
+
+div.scroll > ul{
+    list-style-type: none;
+}
+
+div.scroll > ul > li:first-child {
+    margin-top: 10px;
+}
+
+div.scroll > ul > li {
+    border-bottom:1px solid #c0c0c0;
+
+}
+
+div.scroll > ul > li:last-child {
+    border-bottom:none;
+}
